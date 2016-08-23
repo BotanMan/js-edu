@@ -21,10 +21,10 @@ var hwModule = (function() {
 	$module.deepClone = function f(dest, src) {
 		dest = dest || {};
 		src = src || {};
-		if (typeof src == 'object' && src !== null) {
+		if (typeof src === 'object' && src !== null) {
 			for (var key in src) {
 				if (src.hasOwnProperty(key)) {
-					dest[key] = (typeof src[key] == 'object' && src[key] !== null) ? f({}, src[key]) : src[key];
+					dest[key] = (typeof src[key] === 'object' && src[key] !== null) ? f({}, src[key]) : src[key];
 				}
 			}
 		}
@@ -39,13 +39,20 @@ var hwModule = (function() {
 	$module.keys = function(obj) {
 		var result = [];
 		obj = obj || {};
-		if (typeof obj == 'object' && obj !== null) {
-			for (var key in obj) {
-				if (obj.hasOwnProperty(key)) {
-					result.push(key);
+
+		(function f(obj) {
+			if (typeof obj === 'object' && obj !== null) {
+				for (var key in obj) {
+					if (obj.hasOwnProperty(key)) {
+						result.push(key);
+						if (typeof obj[key] === 'object' && obj[key] !== null) {
+							f(obj[key]);
+						}
+					}
 				}
 			}
-		}
+		})(obj);
+
 		return result;
 	};
 
@@ -57,13 +64,23 @@ var hwModule = (function() {
 	$module.values = function(obj) {
 		var result = [];
 		obj = obj || {};
-		if (typeof obj == 'object' && obj !== null) {
-			for (var key in obj) {
-				if (obj.hasOwnProperty(key)) {
-					result.push($module.deepClone({}, obj[key]));
+
+		(function f(obj) {
+			if (typeof obj === 'object' && obj !== null) {
+				for (var key in obj) {
+					if (obj.hasOwnProperty(key)) {
+						if (typeof obj[key] === 'object' && obj[key] !== null) {
+							result.push($module.deepClone({}, obj[key]));
+							f(obj[key]);
+						}
+						else {
+							result.push(obj[key]);
+						}
+					}
 				}
 			}
-		}
+		})(obj);
+
 		return result;
 	};
 
