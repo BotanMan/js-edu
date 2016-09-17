@@ -1,0 +1,16 @@
+<div>
+    <ul ng-hide="isEdit">
+        <li ng-repeat="user in users"
+            ng-bind="user.firstName + ' Last Name'">
+            {{::user.firstName}}
+        </li>
+    </ul>
+    <ul ng-show="isEdit">
+        <li ng-repeat="user in users">
+            <input type="text" ng-model="user.firstName">
+        </li>
+    </ul>
+    <input type="text" ng-model="newUserName"/>
+    <button ng-click="addUser(newUserName);">Add user</button>
+    <button ng-click="toggleMode()">Change mode</button>
+</div>
