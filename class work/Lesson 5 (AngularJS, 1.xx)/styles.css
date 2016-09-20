@@ -1,0 +1,14 @@
+.red-box {
+    background: red;
+
+ }
+
+.block{
+    display: block;
+
+    background: orange;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    box-sizing: border-box;
+}

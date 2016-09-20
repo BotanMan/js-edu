@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS, step #1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div ng-app="app">
+    <users-list users-list="users" ></users-list>
+    {{text}}
+
+    <div ng-controller="UsersListController">
+
+        <input type="text"
+               ng-click="clearName()"
+               ng-model="newUserName"/>
+
+    </div>
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="app.module.js"></script>
+<script src="app.run.js"></script>
+<script src="app/common/directives/users-list/users-list.directive.js"></script>
+
+</body>
+</html>
