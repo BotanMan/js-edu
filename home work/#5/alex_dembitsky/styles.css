@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+    font-size: 12px;
+}
+.root {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.goods {
+
+}
+.goods .preview {
+    overflow: hidden;
+}
+.goods .preview .item {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+.goods .preview .item div {
+    margin: 0px 0px 10px 0px;
+}
+.goods .preview .item .title {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.goods .preview .item .image {
+
+}
+.goods .preview .item .image img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.goods .preview .item .price {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
