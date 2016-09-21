@@ -1,0 +1,20 @@
+<div>
+    <div class="item-image">
+        <img src="{{item.imageUrl}}"
+             alt="{{item.title}}"
+             width="{{item.size.width}}"
+             height="{{item.size.height}}"
+        />
+    </div>
+    <div class="item-title">{{item.title}}</div>
+    <div class="item-text">{{item.description}}</div>
+    <div class="item-add2basket">
+        <div class="item-price">${{item.price}}</div>
+        <button class="item-buy"
+                ng-hide="item.inBasket"
+                ng-click="add2Basket()">Купить
+        </button>
+        <span class="item-inBasket"
+              ng-show="item.inBasket">В корзине</span>
+    </div>
+</div>

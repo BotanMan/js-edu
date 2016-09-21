@@ -1,0 +1,24 @@
+.stickers {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; }
+  .stickers .item {
+    width: 10%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: "Open Sans";
+    padding: 10px;
+    background: lightgray;
+    text-align: center; }
+    .stickers .item-image {
+      padding: 5px;
+      background: white;
+      display: inline-block; }
+    .stickers .item-add2basket {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between; }
+    .stickers .item-price {
+      color: red; }
+
+/*# sourceMappingURL=css.css.map */
