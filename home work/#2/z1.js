@@ -29,5 +29,5 @@ var math = function mathOperation (operation) {
     alert (result());
 };
 var func = math(operation);
-func(12, 3);
+console.log(func(12, 3));
 
