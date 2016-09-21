@@ -1,0 +1,16 @@
+<div ng-repeat="sticker in stickers" class="col-md-4 wrapper">
+        <h1 class="title">
+            {{sticker.title}}
+        </h1>
+        <img src="{{sticker.imgURL}}" alt="" width="200px">
+            <ul class="size"> Size:
+                <li class="size-value">Height {{sticker.size.height}} cm</li>
+                <li class="size-value">Width {{sticker.size.width}} cm</li>
+            </ul>
+        <p class="price">
+            Price: {{sticker.price}}
+        </p>
+        <p class="description">
+            Description: {{sticker.description}}
+        </p>
+</div>
