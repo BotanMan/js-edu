@@ -1,0 +1,13 @@
+.container-fluid {
+    background: #3c3c3c;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.main-title {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+.wrapper {
+    margin-bottom: 20px;
+}
