@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header class="container-fluid">
+            <h1 class="main-title">Here is some stickers for you!</h1>
+        </header>
+        <div ng-app="myApp" class="container">
+            <div sticker-list="stickers" class="row">
+
+            </div>
+        </div>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="myApp.module.js"></script>
+        <script src="myApp.run.js"></script>
+        <script src="app/common/directives/sticker-list/sticker-list.directive.js"></script>
+    </body>
+</html>
