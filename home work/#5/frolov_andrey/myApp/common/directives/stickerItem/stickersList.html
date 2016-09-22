@@ -1,12 +1,18 @@
-<div ng-repeat="sticker in stickers">
-    <ol type="1">
-        <li>{{sticker.tittle}}</li>
-        <li>{{sticker.imageUrl}}</li>
-        <ul>
-            <li>{{sticker.size.width}}</li>
-            <li>{{sticker.size.height}}</li>
-        </ul>
-        <li>{{sticker.price}}</li>
-        <li>{{sticker.description}}</li>
-    </ol>
+<div ng-repeat="sticker in stickers" id="container">
+    <div id="sidebar" align="center" >
+        <img src="{{sticker.imageUrl}}" alt="" width="200px" height="200px" class="col-md-6">
+    </div>
+    <div id="content" >
+        <ol type="1">
+            <li>{{sticker.tittle}}</li>
+            <li>Size:</li>
+            <ul>
+                <li>Width {{sticker.size.width}}</li>
+                <li>Height {{sticker.size.height}}</li>
+            </ul>
+            <li>Price: {{sticker.price}}</li>
+            <li>Description: {{sticker.description}}</li>
+        </ol>
+    </div>
+    <br>
 </div>

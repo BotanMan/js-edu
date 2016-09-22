@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>AngularJS, step #1</title>
+    <style type="text/css">
+        body {
+            font: 0.9em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+            background: rgba(0,0,0,0.8); /* Цвет фона #d7e1f2; */
+            color: #ffe; /* Цвет текста */
+        }
+        #header {
+            color: #008BCE;
+        }
+        #container {
+            width: 60%; /* Ширина макета */
+            margin: 0 auto; /* Выравниваем по центру */
+            background: #54B948; /* Цвет колонок */
+            overflow: hidden;
+            margin: 15px auto;
+            height: 300px;
+        }
+        #content {
+            float: right;
+            width: 60%;
+        }
+        #sidebar {
+            float: left;
+            width:40%;
+        }
+
+    </style>
 </head>
 <body>
 <div ng-app="myApp">
-
+    <div id="header">
+        <h1 align="center">Store sticker</h1>
+    </div>
     <stickers-list-directive stickers="stickersList"></stickers-list-directive>
 </div>
 
