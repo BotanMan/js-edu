@@ -2,8 +2,8 @@
     "use strict";
 
     angular
-        .module('app', [])
-})()
+        .module('app', ['ui.router', 'ui.router.stateHelper'])
+})();
 
 //service
 //factory

@@ -4,9 +4,9 @@
     angular.module('app')
         .run(runStage);
 
-    runStage.$inject = ['$rootScope', '$sce'];
+    runStage.$inject = ['$rootScope', '$sce', '$state'];
     
-    function runStage($rootScope, $sce){
+    function runStage($rootScope, $sce, $state){
         $rootScope.newName = 'Igor';
         $rootScope.users = [
             {firstName: 'Innokentiy'},
@@ -17,7 +17,7 @@
 
         $rootScope.updateHtml = function(){
             $rootScope.html = $sce.trustAsHtml($rootScope.rawHtml);
-        }
+        };
 
         $rootScope.updateHtml();
     }

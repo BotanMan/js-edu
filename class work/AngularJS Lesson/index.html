@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="fragment" content="!">
+    <base href="/">
     <title>AngularJS, step #1</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <div ng-app="app">
     <users-list users-list="users" ></users-list>
-    {{text}}
-
     <div ng-controller="UsersListController">
-
         <input type="text"
                ng-click="clearName()"
                ng-model="newUserName"/>
-
     </div>
+    <div ui-view></div>
 </div>
 <script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-ui-router.stateHelper/statehelper.min.js"></script>
 <script src="app.module.js"></script>
+<script src="app.routes.js"></script>
 <script src="app.run.js"></script>
 <script src="app/common/directives/users-list/users-list.directive.js"></script>
-
+<script src="app/list/list.controller.js"></script>
+<script src="app/list-item/list-item.controller.js"></script>
 </body>
 </html>
