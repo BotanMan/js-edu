@@ -1,16 +1,18 @@
 <div ng-repeat="sticker in stickers" id="container">
-    <div id="sidebar" align="center" >
+    <div id="sidebar" align="center">
         <img src="{{sticker.imageUrl}}" alt="" width="200px" height="200px" class="col-md-6">
     </div>
-    <div id="content" >
+    <div id="content">
         <ol type="1">
-            <li>{{sticker.tittle}}</li>
+            <li ng-show="!master"> {{sticker.tittle}}</li>
+            <li ng-hide="!master"> {{sticker.tittle | orderFil }}</li>
             <li>Size:</li>
             <ul>
                 <li>Width {{sticker.size.width}}</li>
                 <li>Height {{sticker.size.height}}</li>
             </ul>
-            <li>Price: {{sticker.price}}</li>
+            <li ng-show="!checked">Price: {{sticker.price }} $</li>
+            <li ng-hide="!checked">Price: <span ng-bind-html="sticker.price | priceFil"></span> $</li>
             <li>Description: {{sticker.description}}</li>
         </ol>
     </div>
