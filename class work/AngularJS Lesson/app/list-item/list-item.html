@@ -1,0 +1,6 @@
+<h4>I'm list item</h4>
+<div ng-show="i.item">
+    <h5>{{i.item.id}}.{{i.item.name}}</h5>
+    <a ui-sref="list.detailedItem({id: i.item.id})">Go to details</a>
+</div>
+<div ng-hide="i.item">Item wasn't found</div>

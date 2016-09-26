@@ -1,0 +1,7 @@
+<h3>I'm list</h3>
+<ul>
+    <li ng-repeat="item in items">
+        <button ng-click="goToDetails(item.id)">{{item.id + '.' + item.name + " : " + item.date}}</button>
+    </li>
+</ul>
+<div ui-view></div>

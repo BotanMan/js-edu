@@ -1,0 +1,8 @@
+<h4>I'm list item</h4>
+<div ng-show="detailed.item">
+    <h5>{{detailed.item.id}}.{{detailed.item.name}}</h5>
+    <div>
+        {{detailed.date}}{{detailed.item.description}}
+    </div>
+</div>
+<div ng-hide="detailed.item">Item wasn't found</div>
