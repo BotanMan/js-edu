@@ -1,0 +1,29 @@
+<div>
+    <div class="item-image">
+        <a href=""
+           ui-sref="detailedItem({id: item.id})">
+            <img ng-src="{{::item.imageUrl}}"
+                 alt="{{::item.title}}"
+                 width="100"
+                 height="100"
+            />
+        </a>
+    </div>
+    <div class="item-title">
+        <a href=""
+           ui-sref="detailedItem({id: item.id})"
+           ng-bind-html="item.title | mark : item.price"></a>
+    </div>
+    <div class="item-variants">
+        <select ng-model="variant" ng-bind-html="item.sizes | genoptions | trust"> </select>
+    </div>
+    <div class="item-add2basket" ng-show="currentVariant">
+        <div class="item-price">{{item.sizes | findvariant : currentVariant : 'price'}}</div>
+        <button class="item-buy"
+                ng-hide="item.inBasket[currentVariant]"
+                ng-click="add2Basket()">Купить
+        </button>
+        <span class="item-inBasket"
+              ng-show="item.inBasket[currentVariant]">В корзине</span>
+    </div>
+</div>

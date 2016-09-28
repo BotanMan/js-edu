@@ -1,0 +1,54 @@
+.filter {
+  margin-bottom: 20px; }
+
+.back-to-list {
+  margin-bottom: 30px; }
+
+.stickers {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; }
+  .stickers .item {
+    width: 10%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: "Open Sans";
+    padding: 10px;
+    background: lightgray;
+    text-align: center; }
+    .stickers .item-image {
+      padding: 5px;
+      background: white;
+      display: inline-block; }
+      .stickers .item-image img {
+        background: #efefef url("/images/loading.gif") center center no-repeat; }
+    .stickers .item-add2basket {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between; }
+    .stickers .item-price {
+      color: red; }
+  .stickers .detail-title {
+    margin-bottom: 10px; }
+  .stickers .detail-inner {
+    display: flex;
+    flex-flow: row nowrap; }
+  .stickers .detail-image {
+    margin-right: 30px; }
+    .stickers .detail-image img {
+      background: #efefef url("/images/loading.gif") center center no-repeat;
+      margin-bottom: 20px; }
+  .stickers .detail-add2basket {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+  .stickers .detail-price {
+    font-size: 30px; }
+  .stickers .detail-description-items {
+    margin-bottom: 20px; }
+    .stickers .detail-description-items dt {
+      width: 100px; }
+  .stickers .detail-text {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=css.css.map */

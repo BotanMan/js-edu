@@ -1,0 +1,39 @@
+<div>
+    <h1 class="detail-title">{{item.title}}</h1>
+    <div class="back-to-list">
+        <a ui-sref="list">Назад к списку</a>
+    </div>
+    <div class="detail-inner">
+        <div class="detail-image">
+            <img ng-src="{{item.imageUrl | replacer : '100/100' : '300/300'}}"
+                 alt="{{item.title}}"
+                 width="300"
+                 height="300"
+            />
+
+            <div class="detail-add2basket" ng-show="currentVariant">
+                <div class="detail-price">{{item.sizes | findvariant : currentVariant : 'price'}}</div>
+                <button class="detail-buy"
+                        ng-hide="item.inBasket[currentVariant]"
+                        ng-click="add2Basket()">Купить
+                </button>
+                <span class="detail-inBasket"
+                      ng-show="item.inBasket[currentVariant]">В корзине</span>
+            </div>
+        </div>
+        <div class="detail-description">
+            <div class="item-variants">
+                <select ng-model="variant" ng-bind-html="item.sizes | genoptions | trust"> </select>
+            </div>
+            <dl class="detail-description-items">
+                <dt>Ширина</dt>
+                <dd>{{item.sizes | findvariant : currentVariant : 'width'}}</dd>
+                <dt>Высота</dt>
+                <dd>{{item.sizes | findvariant : currentVariant : 'height'}}</dd>
+            </dl>
+            <div class="detail-text" ng-bind-html="item.description | trust"></div>
+            <div>Теги:</div>
+            <div class="detail-tags" ng-bind-html="item.tags | buildtags | trust"></div>
+        </div>
+    </div>
+</div>
