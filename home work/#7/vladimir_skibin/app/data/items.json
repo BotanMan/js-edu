@@ -1,0 +1,485 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Кот 66",
+      "imageUrl": "http://loremflickr.com/100/100?0.9664266260447072",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Кот 69",
+      "imageUrl": "http://loremflickr.com/100/100?0.24525000235315075",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Кот 28",
+      "imageUrl": "http://loremflickr.com/100/100?0.6553246724162656",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Кот 27",
+      "imageUrl": "http://loremflickr.com/100/100?0.05615707031829009",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "<p>Психе просветляет депрессивный контраст. Роджерс первым ввел в научный обиход понятие «клиент», так как акцентуированная личность откровенна. Но так как книга Фридмана адресована руководителям и работникам образования, то есть объект традиционен. Бессознательное кумулятивно. Фрустрация, как бы это ни казалось парадоксальным, представляет собой страх.</p><p>Бессознательное социально понимает бихевиоризм. Психоанализ дает латентный аутотренинг. Скиннер, однако, настаивал, что перцепция индивидуально понимает контраст. Душа, как справедливо считает Ф.Энгельс, представляет собой социальный психоанализ.</p><p>Психе параллельна. Гендер теоретически возможен. Компульсивность, как справедливо считает Ф.Энгельс, существенно выбирает эскапизм, так, например, Ричард Бендлер для построения эффективных состояний использовал изменение субмодальностей. Апперцепция просветляет гендер.</p>",
+      "tags": [
+        "кот",
+        "крутой",
+        "красивый"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Кот 36",
+      "imageUrl": "http://loremflickr.com/100/100?0.9922229763563546",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Кот 87",
+      "imageUrl": "http://loremflickr.com/100/100?0.6318861608041069",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Кот 61",
+      "imageUrl": "http://loremflickr.com/100/100?0.23381423376232746",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Кот 24",
+      "imageUrl": "http://loremflickr.com/100/100?0.8418345872721655",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Кот 4",
+      "imageUrl": "http://loremflickr.com/100/100?0.6775838874581084",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Кот 80",
+      "imageUrl": "http://loremflickr.com/100/100?0.7326181932269149",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Кот 28",
+      "imageUrl": "http://loremflickr.com/100/100?0.7798969994735296",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Кот 49",
+      "imageUrl": "http://loremflickr.com/100/100?0.7439607214814741",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Кот 64",
+      "imageUrl": "http://loremflickr.com/100/100?0.8760525459936401",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Кот 64",
+      "imageUrl": "http://loremflickr.com/100/100?0.16942865956779363",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Кот 16",
+      "imageUrl": "http://loremflickr.com/100/100?0.9700432904223928",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Кот 5",
+      "imageUrl": "http://loremflickr.com/100/100?0.9691710187965088",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Кот 50",
+      "imageUrl": "http://loremflickr.com/100/100?0.01852167943371663",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Кот 30",
+      "imageUrl": "http://loremflickr.com/100/100?0.39033907978807125",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Кот 72",
+      "imageUrl": "http://loremflickr.com/100/100?0.11043540905545335",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Кот 59",
+      "imageUrl": "http://loremflickr.com/100/100?0.561540730075184",
+      "sizes": [
+        {
+          "variantId": 1,
+          "price": 58,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "variantId": 2,
+          "price": 68,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "description": "Описание",
+      "tags": [
+        "кот",
+        "крутой"
+      ]
+    }
+  ]
+}
