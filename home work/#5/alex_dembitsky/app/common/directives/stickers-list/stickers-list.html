@@ -1,0 +1,12 @@
+<div class="goods">
+  <div class="preview">
+    <div class="item" ng-repeat="sticker in stickers">
+      <div class="title">{{sticker.title}}</div>
+      <div class="image"><img src="{{sticker.imageUrl}}" alt="{{sticker.title}}" /></div>
+      <div class="size-width">width: {{sticker.size.width}}</div>
+      <div class="size-height">height: {{sticker.size.height}}</div>
+      <div class="price">$ {{sticker.price}}</div>
+      <div class="text">{{sticker.description}}</div>
+    </div>
+  </div>
+</div>
