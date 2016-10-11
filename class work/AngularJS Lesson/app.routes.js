@@ -16,22 +16,28 @@
                 children: [{
                     name: 'item',
                     url: '/item/{id:int}',
-                    resolve: {
-                        'item': function ($stateParams) {
-                            return {id: 1, name: '123'};
-                        }
-                    },
+                    // resolve: {
+                    //     'item': function (itemsStore) {
+                    //         return itemsStore.getItems(function(data){
+                    //
+                    //         });
+                    //     }
+                    // },
                     controllerAs: 'i',
                     controller: 'ListItemController',
                     templateUrl: '/app/list-item/list-item.html'
                 }, {
                     name: 'detailedItem',
                     url: '/detailed-item/{id:int}',
-                    resolve: {
-                        'item': function ($stateParams) {
-                            return {id: 1, name: '123'};
-                        }
-                    },
+                    // resolve: {
+                    //     'item': function (itemsStore) {
+                    //         return itemsStore.getItems()
+                    //             .then((data) => {
+                    //                 console.log(data.length);
+                    //                 return data;
+                    //             })
+                    //     }
+                    // },
                     controller: 'ListItemController',
                     templateUrl: '/app/list-item/detailed-list-item.html',
                     controllerAs: 'detailed'
@@ -39,6 +45,6 @@
             });
 
         $urlRouterProvider.otherwise('/list');
-        $locationProvider.html5Mode(true);
+        //$locationProvider.html5Mode(true);
     }
 })();

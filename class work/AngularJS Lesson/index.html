@@ -10,11 +10,11 @@
 <body>
 <div ng-app="app">
     <users-list users-list="users" ></users-list>
-    <div ng-controller="UsersListController">
-        <input type="text"
-               ng-click="clearName()"
-               ng-model="newUserName"/>
-    </div>
+    <!--<div>-->
+        <!--<input type="text"-->
+               <!--ng-click="clearName()"-->
+               <!--ng-model="newUserName"/>-->
+    <!--</div>-->
     <div ui-view></div>
 </div>
 <script src="bower_components/angular/angular.min.js"></script>
@@ -23,6 +23,7 @@
 <script src="app.module.js"></script>
 <script src="app.routes.js"></script>
 <script src="app.run.js"></script>
+<script src="app/common/services/items-store.service.js"></script>
 <script src="app/common/directives/users-list/users-list.directive.js"></script>
 <script src="app/list/list.controller.js"></script>
 <script src="app/list-item/list-item.controller.js"></script>

@@ -8,6 +8,7 @@
 	listController.$inject = ['stickers'];
 
 	function listController(stickers) {
+		console.log(stickers);
 		this.stickers = stickers;
 	}
 })();
